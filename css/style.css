@@ -54,8 +54,112 @@ ul {
     height: 200px;
     width: 200px; }
 
-.footer {
+footer {
   color: chartreuse;
   background-color: #da8e2a;
   text-align: center;
   font-size: 30px; }
+
+.div__contacto {
+  text-align: center; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: black;
+  color: white; }
+
+/* GRID */
+.padreGrid {
+  background-color: #6688e6;
+  height: 1950px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 151px 134px 480px 800px 36px;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "titulo" "listas" "propaganda" "section" "footer"; }
+
+.titulo {
+  grid-area: titulo; }
+
+.listas {
+  grid-area: listas; }
+
+.propaganda {
+  grid-area: propaganda; }
+
+.section {
+  grid-area: section; }
+
+.footer {
+  grid-area: footer; }
+
+.padreGrid__2 {
+  height: 1137px;
+  width: 1939px; }
+
+@media (max-width: 800px) {
+  .padreGrid {
+    background-color: #6688e6;
+    height: 2345px;
+    width: 770px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 151px 134px 480px 800px 36px;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "titulo" "listas" "propaganda" "section" "footer"; }
+  .titulo {
+    grid-area: titulo; }
+  .listas {
+    grid-area: listas; }
+  .propaganda {
+    grid-area: propaganda; }
+  .section {
+    grid-area: section; }
+  .footer {
+    grid-area: footer; }
+  .padreGrid__2 {
+    height: 2011px; }
+  .medida__fondo {
+    width: 770px; }
+  .listas {
+    height: 169px;
+    width: 739px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+  ul {
+    margin: 0; }
+  .menu {
+    background-color: #ee0000;
+    display: inline-block;
+    padding: 15px 26px;
+    border: solid rgba(81, 223, 100, 0.829); } }
+
+/* ANIMACIONES */
+.menu:hover {
+  animation: change-color 3s; }
+
+@keyframes change-color {
+  10% {
+    background-color: #eca303; }
+  20% {
+    background-color: #61a52a; }
+  50% {
+    background-color: #06d439; }
+  75% {
+    background-color: #3506df; }
+  90% {
+    background-color: #d615c6; } }
+
+.titulo {
+  transition: all 2s; }
+
+.titulo:hover {
+  transform: rotate(360deg) scale(2); }
