@@ -3,11 +3,25 @@
   padding: 0; }
 
 /* INDEX */
-.titulo {
+div .titulo {
   color: white;
   font-family: 'Bungee Inline', cursive;
   text-align: center;
   font-size: 80px; }
+
+div .listas {
+  width: 1901px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around; }
+
+ul .menu {
+  background-color: #ee0000;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 60px;
+  border: solid rgba(81, 223, 100, 0.829); }
 
 .propaganda video {
   background-color: black;

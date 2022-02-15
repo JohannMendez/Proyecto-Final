@@ -4,12 +4,31 @@
 }
 
 /* INDEX */
+div {
+    .titulo {
+        color: rgb(255, 255, 255);
+        font-family: 'Bungee Inline', cursive;
+        text-align: center;
+        font-size: 80px;
+    }
 
-.titulo {
-    color: rgb(255, 255, 255);
-    font-family: 'Bungee Inline', cursive;
-    text-align: center;
-    font-size: 80px;
+    .listas {
+        width: 1901px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+}
+
+ul{
+    .menu{
+        background-color: rgb(238, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 60px;
+    border: solid rgba(81, 223, 100, 0.829);
+    }
 }
 
 .propaganda video {
@@ -220,41 +239,47 @@ footer {
     ul {
         margin: 0;
     }
+
     .menu {
         background-color: rgb(238, 0, 0);
         display: inline-block;
         padding: 15px 26px;
         border: solid rgba(81, 223, 100, 0.829);
     }
-    
+
 }
 
 /* ANIMACIONES */
-.menu:hover{
+.menu:hover {
     animation: change-color 3s;
 }
+
 @keyframes change-color {
-    10%{
+    10% {
         background-color: rgb(236, 163, 3);
     }
+
     20% {
         background-color: rgb(97, 165, 42);
     }
-    50%{
+
+    50% {
         background-color: rgb(6, 212, 57);
     }
-    75%{
+
+    75% {
         background-color: rgb(53, 6, 223);
     }
-    90%{
+
+    90% {
         background-color: rgb(214, 21, 198);
     }
 }
 
-.titulo{
+.titulo {
     transition: all 2s;
 }
 
-.titulo:hover{
+.titulo:hover {
     transform: rotate(360deg) scale(2)
 }
