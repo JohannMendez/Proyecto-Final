@@ -113,10 +113,10 @@ footer {
     width: 200px;
 }
 
-.padreGrid__2 {
+/* .padreGrid__2 {
     height: 200px;
     width: 200px;
-}
+} */
 
 /* GRID */
 .padreGrid {
@@ -237,14 +237,8 @@ footer {
     10%{
         background-color: rgb(236, 163, 3);
     }
-    20% {
-        background-color: rgb(97, 165, 42);
-    }
     50%{
         background-color: rgb(6, 212, 57);
-    }
-    75%{
-        background-color: rgb(53, 6, 223);
     }
     90%{
         background-color: rgb(214, 21, 198);
