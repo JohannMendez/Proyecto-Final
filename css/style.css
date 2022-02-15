@@ -53,3 +53,9 @@ ul {
   .section .indumentaria {
     height: 200px;
     width: 200px; }
+
+.footer {
+  color: chartreuse;
+  background-color: #da8e2a;
+  text-align: center;
+  font-size: 30px; }
