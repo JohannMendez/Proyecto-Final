@@ -42,6 +42,10 @@ ul {
     flex-wrap: nowrap;
     justify-content: space-around;
 }
+.indumentaria{
+    width: 200px;
+    height: 200px;
+}
 
 /* IFRAME */
 .propaganda iframe {
