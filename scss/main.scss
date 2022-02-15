@@ -49,13 +49,12 @@ ul {
     justify-content: space-around;
     flex-wrap: wrap;
 
-    .producto2 {
-        height: 200px;
-        width: 200px;
-            
-            padding: 10px 36px;
-            background-color: black;
-            border: double rgb(253, 0, 0);
+    div {
+        width: 276px;
+        height: 405px;
+        padding: 10px 36px;
+        background-color: black;
+        border: double rgb(253, 0, 0);
     
 
         p {

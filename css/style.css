@@ -38,13 +38,13 @@ ul {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap; }
-  .section .producto2 {
-    height: 200px;
-    width: 200px;
+  .section div {
+    width: 276px;
+    height: 405px;
     padding: 10px 36px;
     background-color: black;
     border: double #fd0000; }
-    .section .producto2 p {
+    .section div p {
       color: red;
       background-color: bisque;
       width: 200px;
