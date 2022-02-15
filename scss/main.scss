@@ -18,10 +18,22 @@ div {
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-around;
+
+        iframe {
+            background-color: black;
+            width: 800px;
+            height: 400px;
+            padding: 40px 565px;
+        }
     }
 }
 
 ul {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 0px;
+    margin: 20px 390px;
+
     .menu {
         background-color: rgb(238, 0, 0);
         text-decoration: none;
@@ -31,9 +43,35 @@ ul {
     }
 }
 
-.section{
+.section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+
+    .producto2 {
+        height: 200px;
+        width: 200px;
+
+        div {
+            width: 276px;
+            height: 405px;
+            padding: 10px 36px;
+            background-color: black;
+            border: double rgb(253, 0, 0);
+        }
+
+        p {
+            color: rgb(255, 0, 0);
+            background-color: bisque;
+            width: 200px;
+            height: 120px;
+            padding: 26px 0px;
+        }
+    }
+
+    .indumentaria {
+        height: 200px;
+        width: 200px;
+    }
 }
