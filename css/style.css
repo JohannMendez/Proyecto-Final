@@ -121,7 +121,7 @@ ul {
     grid-template-areas: "titulo" "listas" "propaganda" "section" "footer"; } }
 
 .listas {
-  align-items: center;
+  width: 2658px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
