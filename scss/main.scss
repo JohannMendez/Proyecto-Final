@@ -145,6 +145,18 @@ ul {
             "footer";
     }
 }
+
+.listas {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+
+
+
 @media (max-width: 800px) {
     .padreGrid {
         background-color: rgb(102, 136, 230);
