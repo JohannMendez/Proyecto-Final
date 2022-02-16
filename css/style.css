@@ -107,7 +107,7 @@ ul {
   height: 1137px;
   width: 1939px; }
 
-@media (min-width: 2560px) {
+@media (max-width: 2560px) {
   .padreGrid {
     background-color: #6688e6;
     height: 1950px;
