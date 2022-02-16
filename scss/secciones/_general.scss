@@ -3,3 +3,10 @@ div {
         @extend %estilosTitulo;
     }
 }
+.section {
+    div{
+        p{
+            @include textIndumentaria ($color1, $color2);
+        }
+    }
+}

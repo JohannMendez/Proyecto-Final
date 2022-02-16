@@ -8,6 +8,13 @@ div .titulo {
   text-align: center;
   font-size: 80px; }
 
+.section div p {
+  color: #e72b2b;
+  background-color: bisque;
+  width: 200px;
+  height: 120px;
+  padding: 26px 0px; }
+
 .listas {
   width: 1901px;
   display: flex;
@@ -43,12 +50,6 @@ ul {
     padding: 10px 36px;
     background-color: black;
     border: double #fd0000; }
-    .section div p {
-      color: red;
-      background-color: bisque;
-      width: 200px;
-      height: 120px;
-      padding: 26px 0px; }
   .section .indumentaria {
     height: 200px;
     width: 200px; }
