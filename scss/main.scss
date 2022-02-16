@@ -3,14 +3,16 @@
     padding: 0;
 }
 
+@import './secciones/general';
+
 /* INDEX */
-div {
-    .titulo {
-        color: rgb(255, 255, 255);
-        font-family: 'Bungee Inline', cursive;
-        text-align: center;
-        font-size: 80px;
-    }
+// div {
+//     .titulo {
+//         color: rgb(255, 255, 255);
+//         font-family: 'Bungee Inline', cursive;
+//         text-align: center;
+//         font-size: 80px;
+//     }
 
     .listas {
         width: 1901px;
@@ -25,7 +27,6 @@ div {
             height: 400px;
             padding: 40px 565px;
         }
-    }
 }
 
 ul {
