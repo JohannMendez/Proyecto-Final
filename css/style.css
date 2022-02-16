@@ -8,12 +8,22 @@ div .titulo {
   text-align: center;
   font-size: 80px; }
 
+/* Indumentaria */
+/* Indumentaria */
+/* Footer */
+/* Footer */
 .section div p {
   color: #e72b2b;
   background-color: bisque;
   width: 200px;
   height: 120px;
   padding: 26px 0px; }
+
+footer {
+  color: chartreuse;
+  background-color: #da8e2a;
+  text-align: center;
+  font-size: 60px; }
 
 .listas {
   width: 1901px;
@@ -53,12 +63,6 @@ ul {
   .section .indumentaria {
     height: 200px;
     width: 200px; }
-
-footer {
-  color: chartreuse;
-  background-color: #da8e2a;
-  text-align: center;
-  font-size: 30px; }
 
 .div__contacto {
   text-align: center; }

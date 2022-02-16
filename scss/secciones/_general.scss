@@ -10,3 +10,7 @@ div {
         }
     }
 }
+
+footer{
+    @include textFooter($color3, $color4, $tamanio-letra);
+}
