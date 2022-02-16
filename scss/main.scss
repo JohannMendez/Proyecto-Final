@@ -85,8 +85,8 @@ ul {
 /* GRID */
 .padreGrid {
     background-color: rgb(102, 136, 230);
-    height: 1950px;
-    width: 1000px;
+    height: 2017px;
+    width: 2099px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 151px 134px 480px 800px 36px;
@@ -126,7 +126,7 @@ ul {
     width: 1939px;
 }
 
-@media (max-width:2560px){
+@media (min-width:2560px){
     .padreGrid {
         background-color: #6688e6;
         height: 1950px;
