@@ -3,13 +3,13 @@
   padding: 0; }
 
 /* INDEX */
-div .listas {
+.listas {
   width: 1901px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around; }
-  div .listas iframe {
+  .listas iframe {
     background-color: black;
     width: 800px;
     height: 400px;

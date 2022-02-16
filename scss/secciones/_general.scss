@@ -1,5 +1,6 @@
-div{
-    .titulo{
-        @extend %estiloTitulo;
+
+div {
+    .titulo {
+        @extend %estilosTitulo;
     }
 }
