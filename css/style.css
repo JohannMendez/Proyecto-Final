@@ -107,13 +107,6 @@ ul {
   height: 1137px;
   width: 1939px; }
 
-.listas {
-  width: 2658px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around; }
-
 @media (max-width: 800px) {
   .padreGrid {
     background-color: #6688e6;
