@@ -126,11 +126,11 @@ ul {
 }
 
 
-@media (max-width: 1140px) {
+@media (max-width: 800px) {
     .padreGrid {
         background-color: rgb(102, 136, 230);
         height: 2345px;
-        width: 1770px;
+        width: auto;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 151px 134px 480px 800px 36px;
