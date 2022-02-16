@@ -17,12 +17,40 @@
         flex-wrap: nowrap;
         justify-content: space-around;
 
+<<<<<<< HEAD
         iframe {
             background-color: black;
             width: 800px;
             height: 400px;
             padding: 40px 565px;
         }
+=======
+.titulo {
+    color: rgb(255, 255, 255);
+    font-family: 'Bungee Inline', cursive;
+    text-align: center;
+    font-size: 80px;
+}
+
+.propaganda video {
+    background-color: black;
+    width: 800px;
+    height: 400px;
+    padding: 40px 565px;
+}
+.indumentaria{
+    width: 200px;
+    height: 200px;
+}
+
+/* MENU */
+.menu {
+    background-color: rgb(238, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 60px;
+    border: solid rgba(81, 223, 100, 0.829);
+>>>>>>> b2d6152decd6e99ea2ab33e02aa01c7889ea9fc2
 }
 
 ul {

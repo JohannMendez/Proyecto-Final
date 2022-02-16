@@ -2,12 +2,18 @@
   margin: 0;
   padding: 0; }
 
+<<<<<<< HEAD
 div .titulo {
+=======
+/* INDEX */
+.titulo {
+>>>>>>> b2d6152decd6e99ea2ab33e02aa01c7889ea9fc2
   color: white;
   font-family: 'Bungee Inline', cursive;
   text-align: center;
   font-size: 80px; }
 
+<<<<<<< HEAD
 /* Indumentaria */
 /* Indumentaria */
 /* Footer */
@@ -24,6 +30,31 @@ footer {
   background-color: #da8e2a;
   text-align: center;
   font-size: 30px; }
+=======
+.propaganda video {
+  background-color: black;
+  width: 800px;
+  height: 400px;
+  padding: 40px 565px; }
+
+.indumentaria {
+  width: 200px;
+  height: 200px; }
+
+/* MENU */
+.menu {
+  background-color: #ee0000;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 60px;
+  border: solid rgba(81, 223, 100, 0.829); }
+
+ul {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 0px;
+  margin: 20px 390px; }
+>>>>>>> b2d6152decd6e99ea2ab33e02aa01c7889ea9fc2
 
 .listas {
   width: 1901px;
@@ -31,6 +62,7 @@ footer {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around; }
+<<<<<<< HEAD
   .listas iframe {
     background-color: black;
     width: 800px;
@@ -48,12 +80,38 @@ ul {
     display: inline-block;
     padding: 20px 60px;
     border: solid rgba(81, 223, 100, 0.829); }
+=======
+
+/* IFRAME */
+.propaganda iframe {
+  background-color: black;
+  width: 800px;
+  height: 400px;
+  padding: 40px 565px; }
+
+/* IFRAME */
+/* PRODUCTOS */
+.section div {
+  width: 276px;
+  height: 405px;
+  padding: 10px 36px;
+  background-color: black;
+  border: double #fd0000; }
+
+.section p {
+  color: red;
+  background-color: bisque;
+  width: 200px;
+  height: 120px;
+  padding: 26px 0px; }
+>>>>>>> b2d6152decd6e99ea2ab33e02aa01c7889ea9fc2
 
 .section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap; }
+<<<<<<< HEAD
   .section div {
     width: 276px;
     height: 405px;
@@ -67,6 +125,10 @@ ul {
 .div__contacto {
   text-align: center; }
 
+=======
+
+/* formulario */
+>>>>>>> b2d6152decd6e99ea2ab33e02aa01c7889ea9fc2
 .formulario {
   display: flex;
   flex-direction: column;
@@ -75,11 +137,41 @@ ul {
   background-color: black;
   color: white; }
 
+<<<<<<< HEAD
 /* GRID */
 .padreGrid {
   background-color: #6688e6;
   height: 1939px;
   width: 1936px;
+=======
+/* contactos */
+.redesSociales {
+  padding: 200px 700px; }
+
+.instagram {
+  padding: 0px 50px; }
+
+footer {
+  color: chartreuse;
+  text-align: center;
+  font-size: 30px; }
+
+.div__contacto {
+  text-align: center; }
+
+.producto2 {
+  height: 200px;
+  width: 200px; }
+
+.padreGrid__2 {
+  height: 200px;
+  width: 200px; }
+
+/* GRID */
+.padreGrid {
+  background-color: #73dbf5;
+  height: 1950px;
+>>>>>>> b2d6152decd6e99ea2ab33e02aa01c7889ea9fc2
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 151px 134px 480px 800px 36px;
@@ -109,9 +201,15 @@ ul {
 
 @media (max-width: 800px) {
   .padreGrid {
+<<<<<<< HEAD
     background-color: #6688e6;
     height: 2345px;
     width: auto;
+=======
+    background-color: #73dbf5;
+    height: 2345px;
+    width: 770px;
+>>>>>>> b2d6152decd6e99ea2ab33e02aa01c7889ea9fc2
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 151px 134px 480px 800px 36px;

@@ -3,7 +3,11 @@
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
   },
+<<<<<<< HEAD
   "name": "pf-copia2",
+=======
+  "name": "pf-copia",
+>>>>>>> b2d6152decd6e99ea2ab33e02aa01c7889ea9fc2
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
