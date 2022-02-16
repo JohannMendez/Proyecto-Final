@@ -2,13 +2,12 @@
   margin: 0;
   padding: 0; }
 
-.titulo {
+div .titulo {
   color: white;
   font-family: 'Bungee Inline', cursive;
   text-align: center;
   font-size: 80px; }
 
-/* INDEX */
 .listas {
   width: 1901px;
   display: flex;
